@@ -4,5 +4,46 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url("../assets/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: auto;
+}
+
+p{
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white:
+}
+
+
+.bg-black-transparent{
+    background-color: #000000b3;
+}
+
+.border-amumu-3 {
+  border-bottom: 3px solid;
+  border-color: #009060;
+}
+
+.text-amumu {
+  color: #009060;
+}
+h1{
+  color: white;
+}
+h2 {
+  text-align: left;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 200;
+  font-family: 'Roboto', sans-serif
+}
+
+nav{
+  margin-bottom: 1%;
 }
