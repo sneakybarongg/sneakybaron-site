@@ -10598,6 +10598,10 @@ hr.light {
   padding: 5rem 0;
 }
 
+.bg-dark-blue {
+  background-color: #273542 !important;
+}
+
 #mainNav {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
