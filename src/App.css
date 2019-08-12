@@ -1,0 +1,280 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: white;
+}
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+.logo {
+  max-height: 4rem!important;
+  font-size: 2rem!important;
+  font-weight: lighter;
+}
+
+.nav-item a{
+  color: #fff !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-navbar {
+  box-shadow: box-shadow;
+  background-color: #20232a;
+}
+
+.bg-masthead{
+  height: 80vh;
+  min-height: 40rem;
+  padding-top: 72px;
+  padding-bottom: 0;
+  background: linear-gradient(to bottom,rgba(0,0,0,.6) 0,rgba(0,0,0,.8) 100%),url(./assets/SB_HR_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: #20232a;
+  
+}
+
+
+.information {
+  padding-bottom: 3%;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  background-color: #676e7b;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.wrapped {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.champion-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.info-panel {
+  text-align: justify;
+}
+
+.info-panel .tier-images {
+  text-align: center;
+}
+
+.info-panel h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-family: 'Roboto', sans-serif
+}
+
+.bait {
+  height: 200px;
+  background-color: white;
+}
+
+.image-md {
+  height: 15rem;
+}
+
+.btn-scattler {
+  background-color: #0099CC;
+  border-color: #0099CC;
+  border-radius: 0;
+  color: white;
+}
+
+.btn-scattler:hover {
+    color: white;
+}
+
+.text-amumu {
+  color: #009060;
+}
+
+.text-blue-new{
+  color: #0099CC;
+}
+
+.bg-darker {
+  background-color: #2a2f33;
+}
+
+.bg-dark-new{
+  background-color: #20232a;
+}
+
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-light-transparent {
+  background-color: rgba(1, 1, 1, 0.7);
+}
+
+.bg-dark-blue {
+  background-color: #273542!important
+}
+
+.border-amumu-3 {
+  border-bottom: 3px solid;
+  border-color: #009060;
+}
+
+.border-blue-3{
+  border-bottom: 3px solid;
+  border-color: #0099CC;
+}
+
+.light-blue{
+  color: #0099CC;
+}
+
+.tab {
+  width: fit-content;
+}
+
+.image-sorry {
+  height: 15rem;
+  width: 18rem;
+}
+
+.nav-amumu:hover {
+  color: #009060!important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.portfolio-box {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.portfolio-box .portfolio-box-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  background: #0099CC;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content p {
+  padding: 25px 25px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+@media(min-width:768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+      font-size: 16px;
+  }
+
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+      font-size: 22px;
+  }
+}
+
+hr {
+  max-width: 150px;
+  border-color: #0099CC;
+  border-width: 3px;
+}
+
+.page-section {
+  padding: 5rem 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+
+.text-white-75 {
+  color: fade-out(white, .25);
+}
+
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: primary;
+}
+
+hr.light {
+  border-color: white;
+}
+
+
+.btn {
+  font-family: font-family-sans-serif;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}

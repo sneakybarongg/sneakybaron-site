@@ -1,0 +1,32 @@
+{
+    "tournaments":[ 
+            {
+                "id" :1,
+                "title" : "FREE ELO 5v5",               
+                "region" :"LAS",
+                "link" : "https://battlefy.com/sneakybaron-powered-by-esports-gateway/sneakybaron-lol-tournament-10-free-elo-martes-2307-21hs-arg/5d360a0234d97d547dbf399b/info",
+                "date": "17hs ARG - 23/07"
+            },
+            {
+                "id" :2,
+                "title" : "FREE ELO 5v5",               
+                "region" :"LAS",
+                "link" : "https://battlefy.com/sneakybaron-powered-by-esports-gateway/sneakybaron-lol-tournament-10-free-elo-martes-2307-21hs-arg/5d360a0234d97d547dbf399b/info",
+                "date": "17hs ARG - 23/07"
+            },
+            {
+                "id" :3,
+                "title" : "FREE ELO 5v5",               
+                "region" :"LAS",
+                "link" : "https://battlefy.com/sneakybaron-powered-by-esports-gateway/sneakybaron-lol-tournament-10-free-elo-martes-2307-21hs-arg/5d360a0234d97d547dbf399b/info",
+                "date": "17hs ARG - 23/07"
+            },
+            {
+                "id" :4,
+                "title" : "FREE ELO 5v5",               
+                "region" :"LAS",
+                "link" : "https://battlefy.com/sneakybaron-powered-by-esports-gateway/sneakybaron-lol-tournament-10-free-elo-martes-2307-21hs-arg/5d360a0234d97d547dbf399b/info",
+                "date": "17hs ARG - 23/07" 
+            }
+        ]
+}
