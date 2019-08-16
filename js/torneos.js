@@ -31,7 +31,6 @@ var Torneos = function (_React$Component) {
 
       axios.get('https://search.battlefy.com/tournament/organization/5cab48eb50ff000324ed0dbb/upcoming?page=1&size=9').then(function (response) {
         var json = response.data;
-        console.log(json);
         _this2.setState({ tournaments_data: json });
       });
     }

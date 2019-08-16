@@ -15,7 +15,6 @@ class Torneos extends React.Component {
     axios.get('https://search.battlefy.com/tournament/organization/5cab48eb50ff000324ed0dbb/upcoming?page=1&size=9')
     .then(response => {
       let json = response.data
-      console.log(json)
       this.setState({ tournaments_data: json })
     })
   }
