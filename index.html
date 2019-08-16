@@ -70,34 +70,8 @@
 
   <!-- Torneos Section -->
   <section id="portfolio" class="page-section">
-    <div class="container-fluid">
-      <h2 class="text-center display-4 text-uppercase">Futuros Torneos</h2>
-      <hr class="divider my-4 mt-0">
-      <!-- <p class="text-center font-italic lead"> No hay ningún torneo disponible! Pronto estaremos organizando nuevos torneos.</p> -->
-      <div class="row no-gutters">
+    <div id="torneos" class="container-fluid">
 
-
-
-        <!--
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" target="_blank" href="https://battlefy.com/sneakybaron-powered-by-esports-gateway/sneakybaron-lol-tournament-6-free-elo-martes-16-21hs-arg/5d2d1fda2908380946c07e5b/info?infoTab=details">
-            <img class="img-fluid rounded-pill" src="img/portfolio/thumbnails/tournament.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                League of Legends #6 - 5v5 - Summoners Rift
-              </div>
-              <div class="project-name">
-                Región: LAS <br>
-                Martes 16/7 - 21HS ARG
-              </div>
-            </div>
-          </a>
-        </div>
-        -->
-
-      </div>
-  
-      <h3 class="text-center">No hay torneos planificados por el momento. Estate atento!</h3>
     </div>
   </section>
 
@@ -154,7 +128,7 @@
   <footer class="bg-light py-5">
     <div class="container">
             <div class="row justify-content-center">
-              <div class="col-auto"> 
+              <div class="col-auto">
                 <div class="small text-center text-muted">Copyright &copy; 2019 - SneakyBaron.gg</div>
               </div>
               <div class="col-auto">
@@ -170,6 +144,12 @@
     </div>
   </footer>
 
+  <!-- Cargar React. -->
+  <!-- Nota: cuando se despliegue, reemplazar "development.js" con "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -180,6 +160,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
+  <!-- Cargamos nuestro componente de React. -->
+  <script src="js/torneos.js"></script>
+
 
 </body>
 
